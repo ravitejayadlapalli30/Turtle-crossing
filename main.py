@@ -24,7 +24,7 @@ while game_is_on:
     screen.update()
 
     if scoreboard.level == 1:
-        cars.create_car()
+        cars.create_car_random1()
     else:
         cars.increase_cars()
     cars.move_cars()
